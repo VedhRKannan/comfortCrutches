@@ -75,7 +75,7 @@ void calculate_resistor() {
         R = r3;
     else
         R = -1.00;
-    Serial.print("R = ");
+    Serial.print("");
 
     Serial.println(R, 2);
 }
@@ -105,7 +105,7 @@ void loop() {
     //    myFile.close();
     iter++;
 
-    delay(500);
+    delay(100);
 }
 /*
  * Notes: 10,000 Ohms displayed as roughly 100 (97.53). This could just be due to manufacturing proccess of resistor and slight inaccuracy.
